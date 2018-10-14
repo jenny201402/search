@@ -24,6 +24,7 @@ var $$ = {
                         $("#search_result").html(obj.message);
                     }
                 }, error: function (obj) {
+                    alert('网络错误，请稍后重试！');
                 }
         });
 
